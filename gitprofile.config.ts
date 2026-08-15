@@ -9,7 +9,7 @@ const CONFIG = {
    * If you are deploying to https://<USERNAME>.github.io/<REPO_NAME>/,
    * for example your repository is at https://github.com/arifszn/portfolio, then set base to '/portfolio/'.
    */
-  base: '/gitprofile/',
+  base: '/gitfolio/',
   projects: {
     github: {
       display: true, // Display GitHub projects?
@@ -31,8 +31,7 @@ const CONFIG = {
     external: {
       header: 'My Projects',
       // To hide the `External Projects` section, keep it empty.
-      projects: [
-      ],
+      projects: [],
     },
   },
   seo: {
@@ -64,8 +63,7 @@ const CONFIG = {
     email: '',
   },
   resume: {
-    fileUrl:
-      'https://www.noahweidig.com/uploads/resume.pdf', // Empty fileUrl will hide the `Download Resume` button.
+    fileUrl: 'https://www.noahweidig.com/uploads/resume.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'R',
