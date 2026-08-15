@@ -31,8 +31,7 @@ const CONFIG = {
     external: {
       header: 'My Projects',
       // To hide the `External Projects` section, keep it empty.
-      projects: [
-      ],
+      projects: [],
     },
   },
   seo: {
@@ -64,8 +63,7 @@ const CONFIG = {
     email: '',
   },
   resume: {
-    fileUrl:
-      'https://www.noahweidig.com/uploads/resume.pdf', // Empty fileUrl will hide the `Download Resume` button.
+    fileUrl: 'https://www.noahweidig.com/uploads/resume.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'R',
